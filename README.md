@@ -1,6 +1,14 @@
 # go-diskstate
 
 ## example
+
+1. 
+
+```
+go get gitlab.com/tingshuo/go-diskstate/
+```
+2. 
+
 ```
 import "gitlab.com/tingshuo/go-diskstate/diskstate"
 
@@ -13,3 +21,4 @@ func main() {
 		state.All/diskstate.MB, state.Free/diskstate.MB, state.Available/diskstate.MB, state.Used/diskstate.MB, 100*state.Used/state.All)
 }
 ```
+
