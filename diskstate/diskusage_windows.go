@@ -1,4 +1,4 @@
-package diskatate
+package diskstate
 
 import (
 	"unsafe"

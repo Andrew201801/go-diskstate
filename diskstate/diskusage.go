@@ -1,6 +1,6 @@
 // +build !windows
 
-package diskatate
+package diskstate
 
 import "syscall"
 
