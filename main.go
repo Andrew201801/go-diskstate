@@ -1,7 +1,5 @@
-# go-diskstate
+package main
 
-## example
-```
 import "gitlab.com/tingshuo/go-diskstate/diskstate"
 
 import "fmt"
@@ -12,4 +10,3 @@ func main() {
 	fmt.Printf("All=%dM, Free=%dM, Available=%dM, Used=%dM, Usage=%d%%",
 		state.All/diskstate.MB, state.Free/diskstate.MB, state.Available/diskstate.MB, state.Used/diskstate.MB, 100*state.Used/state.All)
 }
-```
